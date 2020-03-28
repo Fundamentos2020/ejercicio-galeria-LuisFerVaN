@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <title>Ejercicio Paginacion</title>
+</head>
+<body>
+    <!-- Titulo de presentacion de la pagina -->
+    <div class="row">
+        <div class="col-s-12 col-m-12 txtPresentacion">
+            <h1>Ejercicio Pagínacion</h1>
+            <h3>Fundamentos del Desarrolo Web</h3>
+        </div>
+    </div>
+    <!-- Fila donde esta el boton con el cual se le pide al usuario el numero de imagenes por pagina -->
+    <div class="row">
+        <div class="col-s-12 col-m-2">
+            <form action="#" id="formNumImg">
+                <label for="cantidadImg" class="labelPresentacion">Cuantas imagenes quieres desplegar por pagina? (Entre 20 y 100)
+                </label>
+                <br>
+                <textarea name="numero-paginas" id="imagesNum" cols="10" rows="1"></textarea>
+                <br>
+                <button>Mostrar imagenes</button>
+            </form>
+        </div>
+    </div>
+    <!-- Fila donde se encontraran las imagenes desplegadas -->
+    <div class="row" id="imagenes">
+
+    </div>
+    <!-- Fila donde se encontrara el menu de paginacion --> 
+    <div class="row" id="paginacion">
+    </div>
+    <!-- Pie de pagina con informacion del alumno -->
+    <div class="row">
+        <div class="col-s-12 col-m-12 txtPresentacion">
+            {281467} - {Vazquez Nieto Luis Fernando}
+        </div>
+    </div>
+    <script src="app.js">
+        [CDATA[
+document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
+ ]]
+    </script>
+</body>
+</html>

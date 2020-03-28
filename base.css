@@ -1,0 +1,159 @@
+*{box-sizing: border-box;}
+
+@media(min-width: 0px){
+    .col_1s{width: 8.33%;}
+    .col_2s{ width: 16.66%;}
+    .col_3s{ width: 25%;}
+    .col_4s{ width: 33.33%;}
+    .col_5s{width: 41.66%;}
+    .col_6s{width: 50%;}
+    .col_7s{width: 58.33%;}
+    .col_8s{width: 66.66%;}
+    .col_9s{width: 75%;}
+    .col_10s{width: 83.33%;}
+    .col_11s{width: 91.66%;}
+    .col_12s{width: 100%;}
+}
+
+@media(min-width: 768px){
+    .col_1m{width: 8.33%;}
+    .col_2m{ width: 16.66%;}
+    .col_3m{ width: 25%;}
+    .col_4m{ width: 33.33%;}
+    .col_5m{width: 41.66%;}
+    .col_6m{width: 50%;}
+    .col_7m{width: 58.33%;}
+    .col_8m{width: 66.66%;}
+    .col_9m{width: 75%;}
+    .col_10m{width: 83.33%;}
+    .col_11m{width: 91.66%;}
+    .col_12m{width: 100%;}
+}
+[class*="col_"]{
+    float: left;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.border{
+    border: solid 1px black;
+}
+.text-center{
+    text-align: center;
+}
+.h_600{
+    height: 600px;
+}
+.m-1{
+    margin: 1em;
+}
+html{
+    background-color: rgb(219, 216, 216);
+}
+.back_white{
+    background-color: white;
+}
+.p_1{
+    padding: 1em;
+}
+.teal{
+    background-color: teal;
+}
+.txtW{
+    color: white;
+}
+#foto{
+    background-image: url("https://picsum.photos/400/300");
+    height: 10em;
+    align-items: flex-end;
+}
+#foto div{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex{
+    display: flex;
+}
+.pb{
+    padding-bottom: 0.5em;
+}
+.bb{
+    border-bottom: solid 1px lightslategray;
+}
+.mx{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.skill-box{
+    background-color: lightgrey;
+}
+.b-rad{
+    border-radius: 10px;
+}
+.leng-box{
+    height: 1em;
+}
+.pers-info{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-title{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+.text-teal{
+    color: teal;
+    font-size: 1.1em;
+}
+.text-subT{
+    font: bold;
+    font-size: 1.25em;
+    color: gray;
+}
+.current{
+    border-radius: 3px;
+    padding: 0 0.5em;
+}
+.py-1{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.txtPresentacion{
+    text-align: center;
+    color: white;
+    background-color: rgb(27, 26, 26);
+    border: black;
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.labelPresentacion{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0em;
+    margin: 1em;
+    text-align: justify;
+}
+#cantidadImg{
+    margin: 1em;
+    text-align: left;
+}
+#botonImg:hover{
+    background-color: rgb(68, 65, 65);
+    color: white;
+}
+.menuStyle{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    font-style: oblique;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    background: grey;
+    color: black;
+    box-shadow: 1px 1px 1px #999;
+}
